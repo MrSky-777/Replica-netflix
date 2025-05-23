@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix - Netflix</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Netflix</h1>
+      <button id="burgerBtn" class="burger">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Series</a></li>
+        <li><a href="#">Películas</a></li>
+        <li><a href="#">Mi lista</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2>Bienvenido a Netflix</h2>
+      <p>Disfruta del contenido más popular ahora</p>
+      <button class="btn">Empieza ahora</button>
+    </section>
+
+    <!-- Slider -->
+    <section class="slider-container">
+      <div class="slider" id="slider">
+        <div class="slide active">
+          <img src="img/equipaje.jpg" alt="Imagen 1">
+        </div>
+        <div class="slide">
+          <img src="img/images (1).jpg" alt="Imagen 2">
+        </div>
+        <div class="slide">
+          <img src="img/images.jpg" alt="Imagen 3">
+        </div>
+      </div>
+      <button class="slider-btn prev" id="prevBtn">&#10094;</button>
+      <button class="slider-btn next" id="nextBtn">&#10095;</button>
+    </section>
+
+    <!-- Tarjetas -->
+    <section class="cards">
+      <div class="card">
+        <h3>Popular</h3>
+        <p>Contenido más visto.</p>
+      </div>
+      <div class="card">
+        <h3>Nuevo</h3>
+        <p>Series recién agregadas.</p>
+      </div>
+      <div class="card">
+        <h3>Recomendado</h3>
+        <p>Basado en tus gustos.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Réplica Netflix. Proyecto académico.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
